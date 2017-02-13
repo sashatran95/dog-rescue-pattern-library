@@ -1,17 +1,13 @@
 :root {
-  --color-primary: #A5D2D2;/* Blue's Clues Blue*/
-  --color-secondary: #D13E27;/*Clifford's Coat*/
-  --color-tertiary: #3F429B;/*Blue dog collar*/
+  --color-primary: #a5d2d2;/* Blue's Clues Blue */
+  --color-secondary: #d13e27;/* Clifford's Coat */
+  --color-tertiary: #3f429b;/* Blue dog collar */
   --color-defaut: black;
   --color-usual: white;
 
-  --font-primary: 'Raleway', sans-serif;/*Raleway - Regular*/
-  --font-secondary: 'Kameron', serif;/*Kameron - Bold*/
+  --font-primary: "Raleway", sans-serif;/* Raleway - Regular */
+  --font-secondary: "Kameron", serif;/* Kameron - Bold */
 
-/*
-  --font-tertiary: "Roboto Slab", sans-serif;/*Raleway - italic*/
-/*  --font-quaternary: "Roboto Slab", sans-serif;
-  --font-quinary: "Roboto Slab", sans-serif; */
 }
 
 html, ul, ol, dl, p, strong, em, i, abbr {
