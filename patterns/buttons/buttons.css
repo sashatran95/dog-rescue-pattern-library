@@ -1,0 +1,22 @@
+.btn {
+
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+
+}
+
+.btn-red {
+  background-color: var(--color-secondary);
+  border-color:  var(--color-secondary);
+
+  color: #fff;
+
+}
+
+.btn-blue {
+  background-color: transparent;
+  border-color: var(--color-tertiary);
+
+  color: var(--color-tertiary);
+
+}
