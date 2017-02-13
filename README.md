@@ -1,6 +1,6 @@
 ---
 name: "Loyal Rescue"
-fontURL: "https://fonts.googleapis.com/css?family=Kameron:400,700|Raleway:300,300i,400,400i,700,700i"
+fontUrl: "https://fonts.googleapis.com/css?family=Kameron:400,700|Raleway:300,300i,400,400i,700,700i"
 fonts:
   primary: | 
     The primary typeface represents a strong and bold face with lines that show stability and arrogance to fully express the power and domincance of our company.
@@ -11,7 +11,7 @@ fonts:
 
     The secondary typeface should be used for headings, buttons and to higlight important things.
 
-colors: |
+colors:
   primary: |
     The primary colours are amazing and represent amazingness. Use them for headers, footers and emphasis.
   secondary: |
