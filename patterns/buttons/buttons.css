@@ -20,3 +20,45 @@
   color: var(--color-tertiary);
 
 }
+
+.btn-light {
+  background-color: transparent;
+  border-color: white;
+
+  color: white;
+
+}
+
+.btn:hover {
+  background-color: transparent;
+  border-color: var(--color-primary);
+
+  color: var(--color-primary);
+
+}
+
+.btn-red:hover {
+  background-color: transparent;
+  border-color: var(--color-secondary);
+
+  color: var(--color-secondary);
+
+}
+
+.btn-blue:hover {
+
+  background-color: var(--color-tertiary);
+  border-color: var(--color-tertiary);
+
+  color: #fff;
+
+}
+
+.btn-light:hover {
+
+  background-color: white;
+  border-color: white;
+
+  color: transparent;
+
+}

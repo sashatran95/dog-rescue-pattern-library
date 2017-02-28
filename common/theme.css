@@ -32,5 +32,11 @@ a {
 
   font-family: var(--font-primary);
   text-decoration: none;
+  color: var(--color-tertiary);
+
+}
+
+mark {
+  background-color: var(--color-primary);
 
 }
