@@ -10,7 +10,7 @@
 
 }
 
-html, ul, ol, dl, p, strong, em, i, abbr {
+html {
 
   font-family: var(--font-primary);
   color: var(--color-defaut);
@@ -32,7 +32,7 @@ a {
 
   font-family: var(--font-primary);
   text-decoration: none;
-  color: var(--color-tertiary);
+  color: var(--color-secondary);
 
 }
 
@@ -40,3 +40,4 @@ mark {
   background-color: var(--color-primary);
 
 }
+
