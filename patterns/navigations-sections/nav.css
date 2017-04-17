@@ -1,0 +1,22 @@
+.nav {
+  display: none;
+}
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+.nav-check:checked ~ .nav {
+  display: block;
+}
+.nav-check:checked ~ .nav-label {
+  background-color: var(--color-primary);
+}
+@media only screen and (min-width: 38em) {
+  .nav li {
+    display: inline-block;
+  } 
+}
+
+@media only screen and (min-width: 60em) {
+
+}
