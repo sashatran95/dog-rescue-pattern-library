@@ -16,7 +16,7 @@ html {
   color: var(--color-defaut);
 }
 
-h1, blockquote {
+h1, blockquote, span {
 
   font-family: var(--font-secondary);
   font-weight: bold;

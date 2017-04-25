@@ -29,7 +29,7 @@ html {
   .nav li {
     display: inline-block;
   }
-  .checkbox {
+  .nav-check {
     display: none;
   }
 }

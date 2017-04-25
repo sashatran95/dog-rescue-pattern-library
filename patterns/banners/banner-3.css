@@ -1,19 +1,19 @@
-.banner-2 {
+.banner-3 {
   position: relative;
-  background-image: url("../../images/pic-8.jpg");
+  background-image: url("../../images/pic-7.jpg");
   background-size: cover;
   background-position: center center;
 }
-.banner2-content {
+.banner3-content {
   position: absolute;
   width: 100%;
-  top: -20%;
+  top: -50%;
 }
-.banner-2 span {
+.banner-3 span {
   display: block;
-  max-width: 10em;
   padding-bottom: 1rem;
-  color: #fff;
+  color: var(--color-tertiary);
+  max-width: 10em;
   padding-top: 0em;
 }
 
@@ -23,7 +23,7 @@
 
 @media only screen and (min-width: 25em) {
 
-  .banner-2 span {
+  .banner-3 span {
   padding-top: 2em;
   }
 
@@ -31,7 +31,7 @@
 
 @media only screen and (min-width: 45em) {
 
-  .banner2-content {
+  .banner3-content {
     padding: 5%;
     top: -5%
   }
@@ -40,7 +40,7 @@
     padding-top: 25%;
   }
 
-  .banner-2 span {
+  .banner-3 span {
     max-width: 25em;
   }
 
