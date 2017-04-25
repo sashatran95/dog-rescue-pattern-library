@@ -1,0 +1,50 @@
+.banner-content {
+  position: absolute;
+  width: 100%;
+  top: -20%;
+}
+
+.banner {
+  position: relative;
+}
+
+.overlay {
+  linear-gradient:  
+
+}
+.banner span {
+  display: block;
+  padding-bottom: 1rem;
+  color: #fff;
+  max-width: 10em;
+  padding-top: 0em;
+}
+
+.embed-4by1, .embed--4by1 {
+  padding-top: 40%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner span {
+  padding-top: 2em;
+  }
+
+}
+
+@media only screen and (min-width: 45em) {
+
+  .banner-content {
+    padding: 5%;
+    top: -5%
+  }
+
+  .embed-4by1, .embed--4by1 {
+    padding-top: 25%;
+  }
+
+  .banner span {
+    max-width: 25em;
+  }
+
+}
