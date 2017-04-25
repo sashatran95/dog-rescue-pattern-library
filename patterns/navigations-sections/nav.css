@@ -22,6 +22,7 @@ html {
 .nav-check:checked ~ .nav-label {
   background-color: var(--color-primary);
 }
+
 @media only screen and (min-width: 38em) {
   .nav {
     display: block;
@@ -29,7 +30,8 @@ html {
   .nav li {
     display: inline-block;
   }
-  .nav-check {
+  [type="checkbox"] + .nav-label{
     display: none;
+    content: none;
   }
 }
