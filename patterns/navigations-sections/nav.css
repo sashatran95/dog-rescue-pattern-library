@@ -4,34 +4,49 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+
 }
+
 .nav {
   display: none;
+
 }
+
 .nav-check {
   position: absolute;
   top: -3em;
+
 }
+
 .nav-check:checked ~ .nav {
   display: block;
+
 }
+
 .nav-check:checked ~ .nav-label {
   background-color: var(--color-primary);
+
 }
 
 @media only screen and (min-width: 38em) {
   .nav {
     display: block;
+
   }
+
   .nav li {
     display: inline-block;
+
   }
+
   [type="checkbox"] + .nav-label{
     display: none;
     content: none;
   }
+
 }
